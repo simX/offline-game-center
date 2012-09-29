@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4191E5F1517FB27003AFDF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4191E5E1517FB27003AFDF1 /* UIKit.framework */; };
+		A4191E611517FB27003AFDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4191E601517FB27003AFDF1 /* Foundation.framework */; };
+		A4191E631517FB27003AFDF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4191E621517FB27003AFDF1 /* CoreGraphics.framework */; };
+		A4191E691517FB27003AFDF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4191E671517FB27003AFDF1 /* InfoPlist.strings */; };
+		A4191E6B1517FB28003AFDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4191E6A1517FB28003AFDF1 /* main.m */; };
+		A4191E6F1517FB28003AFDF1 /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4191E6E1517FB28003AFDF1 /* EPAppDelegate.m */; };
+		A4191E721517FB28003AFDF1 /* EPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4191E711517FB28003AFDF1 /* EPViewController.m */; };
+		A4191E751517FB28003AFDF1 /* EPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4191E731517FB28003AFDF1 /* EPViewController_iPhone.xib */; };
+		A4191E781517FB28003AFDF1 /* EPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4191E761517FB28003AFDF1 /* EPViewController_iPad.xib */; };
+		A4191E801517FB47003AFDF1 /* EPAchievementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4191E7F1517FB47003AFDF1 /* EPAchievementManager.m */; };
+		A4191E831517FCCD003AFDF1 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = A4191E821517FCCC003AFDF1 /* NSData+AES256.m */; };
+		A4191E86151801EE003AFDF1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4191E84151801CD003AFDF1 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4191E5A1517FB27003AFDF1 /* OfflineGameCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineGameCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4191E5E1517FB27003AFDF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4191E601517FB27003AFDF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4191E621517FB27003AFDF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4191E661517FB27003AFDF1 /* OfflineGameCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfflineGameCenter-Info.plist"; sourceTree = "<group>"; };
+		A4191E681517FB27003AFDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4191E6A1517FB28003AFDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4191E6C1517FB28003AFDF1 /* OfflineGameCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineGameCenter-Prefix.pch"; sourceTree = "<group>"; };
+		A4191E6D1517FB28003AFDF1 /* EPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPAppDelegate.h; sourceTree = "<group>"; };
+		A4191E6E1517FB28003AFDF1 /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
+		A4191E701517FB28003AFDF1 /* EPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPViewController.h; sourceTree = "<group>"; };
+		A4191E711517FB28003AFDF1 /* EPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPViewController.m; sourceTree = "<group>"; };
+		A4191E741517FB28003AFDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EPViewController_iPhone.xib; sourceTree = "<group>"; };
+		A4191E771517FB28003AFDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EPViewController_iPad.xib; sourceTree = "<group>"; };
+		A4191E7E1517FB47003AFDF1 /* EPAchievementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPAchievementManager.h; sourceTree = "<group>"; };
+		A4191E7F1517FB47003AFDF1 /* EPAchievementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPAchievementManager.m; sourceTree = "<group>"; };
+		A4191E811517FCCC003AFDF1 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		A4191E821517FCCC003AFDF1 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		A4191E84151801CD003AFDF1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4191E571517FB27003AFDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4191E631517FB27003AFDF1 /* CoreGraphics.framework in Frameworks */,
+				A4191E611517FB27003AFDF1 /* Foundation.framework in Frameworks */,
+				A4191E86151801EE003AFDF1 /* GameKit.framework in Frameworks */,
+				A4191E5F1517FB27003AFDF1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4191E4F1517FB27003AFDF1 = {
+			isa = PBXGroup;
+			children = (
+				A4191E641517FB27003AFDF1 /* Source */,
+				A4191E5D1517FB27003AFDF1 /* Frameworks */,
+				A4191E5B1517FB27003AFDF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4191E5B1517FB27003AFDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4191E5A1517FB27003AFDF1 /* OfflineGameCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4191E5D1517FB27003AFDF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4191E621517FB27003AFDF1 /* CoreGraphics.framework */,
+				A4191E601517FB27003AFDF1 /* Foundation.framework */,
+				A4191E84151801CD003AFDF1 /* GameKit.framework */,
+				A4191E5E1517FB27003AFDF1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4191E641517FB27003AFDF1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A4191E6D1517FB28003AFDF1 /* EPAppDelegate.h */,
+				A4191E6E1517FB28003AFDF1 /* EPAppDelegate.m */,
+				A4191E701517FB28003AFDF1 /* EPViewController.h */,
+				A4191E711517FB28003AFDF1 /* EPViewController.m */,
+				A4191E7E1517FB47003AFDF1 /* EPAchievementManager.h */,
+				A4191E7F1517FB47003AFDF1 /* EPAchievementManager.m */,
+				A4191E811517FCCC003AFDF1 /* NSData+AES256.h */,
+				A4191E821517FCCC003AFDF1 /* NSData+AES256.m */,
+				A4191E731517FB28003AFDF1 /* EPViewController_iPhone.xib */,
+				A4191E761517FB28003AFDF1 /* EPViewController_iPad.xib */,
+				A4191E651517FB27003AFDF1 /* Supporting Files */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A4191E651517FB27003AFDF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4191E661517FB27003AFDF1 /* OfflineGameCenter-Info.plist */,
+				A4191E671517FB27003AFDF1 /* InfoPlist.strings */,
+				A4191E6A1517FB28003AFDF1 /* main.m */,
+				A4191E6C1517FB28003AFDF1 /* OfflineGameCenter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4191E591517FB27003AFDF1 /* OfflineGameCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4191E7B1517FB28003AFDF1 /* Build configuration list for PBXNativeTarget "OfflineGameCenter" */;
+			buildPhases = (
+				A4191E561517FB27003AFDF1 /* Sources */,
+				A4191E571517FB27003AFDF1 /* Frameworks */,
+				A4191E581517FB27003AFDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineGameCenter;
+			productName = GameCenterTest;
+			productReference = A4191E5A1517FB27003AFDF1 /* OfflineGameCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4191E511517FB27003AFDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EP;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "The Little App Factory";
+			};
+			buildConfigurationList = A4191E541517FB27003AFDF1 /* Build configuration list for PBXProject "OfflineGameCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4191E4F1517FB27003AFDF1;
+			productRefGroup = A4191E5B1517FB27003AFDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4191E591517FB27003AFDF1 /* OfflineGameCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4191E581517FB27003AFDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4191E691517FB27003AFDF1 /* InfoPlist.strings in Resources */,
+				A4191E751517FB28003AFDF1 /* EPViewController_iPhone.xib in Resources */,
+				A4191E781517FB28003AFDF1 /* EPViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4191E561517FB27003AFDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4191E6B1517FB28003AFDF1 /* main.m in Sources */,
+				A4191E6F1517FB28003AFDF1 /* EPAppDelegate.m in Sources */,
+				A4191E721517FB28003AFDF1 /* EPViewController.m in Sources */,
+				A4191E801517FB47003AFDF1 /* EPAchievementManager.m in Sources */,
+				A4191E831517FCCD003AFDF1 /* NSData+AES256.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4191E671517FB27003AFDF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4191E681517FB27003AFDF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4191E731517FB28003AFDF1 /* EPViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4191E741517FB28003AFDF1 /* en */,
+			);
+			name = EPViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A4191E761517FB28003AFDF1 /* EPViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4191E771517FB28003AFDF1 /* en */,
+			);
+			name = EPViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4191E791517FB28003AFDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4191E7A1517FB28003AFDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4191E7C1517FB28003AFDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/OfflineGameCenter-Prefix.pch";
+				INFOPLIST_FILE = "Source/OfflineGameCenter-Info.plist";
+				PRODUCT_NAME = OfflineGameCenter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4191E7D1517FB28003AFDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/OfflineGameCenter-Prefix.pch";
+				INFOPLIST_FILE = "Source/OfflineGameCenter-Info.plist";
+				PRODUCT_NAME = OfflineGameCenter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4191E541517FB27003AFDF1 /* Build configuration list for PBXProject "OfflineGameCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4191E791517FB28003AFDF1 /* Debug */,
+				A4191E7A1517FB28003AFDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4191E7B1517FB28003AFDF1 /* Build configuration list for PBXNativeTarget "OfflineGameCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4191E7C1517FB28003AFDF1 /* Debug */,
+				A4191E7D1517FB28003AFDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4191E511517FB27003AFDF1 /* Project object */;
+}
