@@ -18,3 +18,7 @@ There are a few things you need to do before EPAchievementManager will work in y
 3. EPAchievementManager needs a viewController to display the Game Center leaderboards or scores when requested.  You can either connect it in a xib (as the test app does), or just set the property in code.
 
 4. Because offline Game Center reporting necessitates storing Game Kit objects for later transmission, they need to be stored on disk somewhere.  Without even simple hashing, a malicious user could easily get a score while offline and then mess with the saved file on disk, so that your app could report an artificially inflated high score to Game Center.  To guard against this, EPAchievementManager hashes the file that stores unreported achievements, but you should change the prefix and suffix hash strings to something different!  That way it's harder for malicious users to mess with your score/achievement reporting.
+
+5. This project uses ARC.  If you need to use it a non-ARC-ed project, use the `-fobjc-arc` compiler flag to use ARC only in EPAchievementManager.
+
+6. This project is licensed under a BSD 3-clause license.
